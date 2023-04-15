@@ -299,6 +299,7 @@ GameObject:
   - component: {fileID: 95247164175502188}
   - component: {fileID: -515220667142824825}
   - component: {fileID: 8370562308528679035}
+  - component: {fileID: 1623640193718040832}
   m_Layer: 0
   m_Name: HP_Golem
   m_TagString: Untagged
@@ -373,6 +374,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1623640193718040832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438169871030806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ea4706330bf2e48875327a7ec40e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1457912190622302
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,6 +587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4352258953355530}
   - component: {fileID: 137999718530953534}
+  - component: {fileID: 7807806159154218471}
   m_Layer: 0
   m_Name: RockGolemMesh
   m_TagString: Untagged
@@ -669,6 +683,18 @@ SkinnedMeshRenderer:
     m_Center: {x: -80.1039, y: -2.447403, z: 17.706985}
     m_Extent: {x: 241.08421, y: 215.05971, z: 397.3723}
   m_DirtyAABB: 0
+--- !u!114 &7807806159154218471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905118724701160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ea4706330bf2e48875327a7ec40e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1907423457912958
 GameObject:
   m_ObjectHideFlags: 0
