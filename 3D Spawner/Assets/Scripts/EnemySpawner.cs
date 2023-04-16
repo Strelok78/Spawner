@@ -36,9 +36,9 @@ public class EnemySpawner : MonoBehaviour
             int i = 0;
 
             foreach (var point in _spawnPoints)
-            {
-                Debug.Log($"Spawn {_enemyTemplates[i].name} at {point.gameObject.transform.position}");
-                _clones.Enqueue(Instantiate(_enemyTemplates[i++].gameObject, point.gameObject.transform));
+            {                
+                var clone = Instantiate(_enemyTemplates[i++].gameObject, point.gameObject.transform);
+                _clones.Enqueue(clone);
                 yield return _spawnPause;
             }
         }
